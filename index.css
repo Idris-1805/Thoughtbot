@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+}
+header{
+    width: 100%;
+    /* border: medium solid blueviolet; */
+    margin-top: 20px;
+    background-color: white;
+    margin: 0;
+    position: fixed;
+    padding: 0px;
+}
+
+    
+
+nav{
+    /* border: medium solid red; */
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+.navleft{
+    /* border: medium solid green; */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navcenter{
+    /* border: medium solid; */
+    /* width: 50%; */
+    font-size: 15;
+    padding: 10px;
+    
+}
+ header nav .navcenter ul{
+    /* border: medium solid yellow; */
+    /* width: 20%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5em;
+    list-style: none;
+       
+}
+header nav .navcenter ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav .navcenter ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.navright {
+    /* border: medium solid red; */
+   padding: 10px 25px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1em; 
+   
+   
+}
+.icon {
+    background-color: #dee0e9;
+    border: 0px  solid;
+    width: 40px; 
+    height: 40px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+
+}
+header nav .navrigt .icon :hover{
+    background-color: black;
+}
+.navright button{
+    background:rgb(224,49,49);
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+header nav .navright button{
+    /* background-color: rgb(224,49,49); */
+    text-decoration: none;
+    padding: 13px 27px;
+    list-style: none;
+    border: medium solid rgb(224,49,49);
+    border-radius: 20px;
+}
+header nav .navright :hover{
+    border: inherit;
+
+    
+}
+
+    
+
+header nav .navright button a{
+    color: white;
+    text-decoration-line: none;
+}
+/* ...... SECTION ONE BODY */
+.section-1{
+    /* border: medium solid red; */
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 100px;
+    position: relative;
+    top: 100px;
+      
+}
+
+.section1-h1{
+    /* border: medium solid blue; */
+    width: 1000px;
+    min: height 100px;;
+    overflow: visible;
+    pointer-events: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    font-size: 50px;
+    letter-spacing:  -0.0575rem;
+    line-height: 0.98;
+    margin: 0;
+    font-weight: 700;
+
+}
+.section1-p{
+    /* border:  medium solid black; */
+    display: block;
+    width: 700px;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.btn{
+    /* border: solid red; */
+    border-radius: 100rem;
+    border: none;
+    background-color: red;
+    padding: 1rem 1.75rem;
+    text-replace:background-color 200ms ease;
+    font-weight: 500;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    width: auto;
+    vertical-align: baseline;
+    line-height: 1;
+}
+.section-1 .section1-btn button{
+    background-color: red;
+    color: white;
+    border: none;
+    
+
+}      
+.section-2{
+    border: medium solid black;
+    /* height: 100%; */
+    /* width: 100%; */
+    margin: auto;
+    margin-left: auto;
+    padding:100px;
+    max-width: 90rem;
+    margin-bottom: -4;
+    display: block;
+    unicode-bidi: isolate;
+    font-size: 100%;
+    line-height: 1.4;
+    
+
+}
+  .section2-h2{
+font-weight: unset;
+font-size: 1em;
+margin: 0;
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.025rem;
+    line-height: 1.0125;
+    width: 950px;
+    display: block;
+}
+.section2-img{
+    border: medium solid red;
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+    /* display: grid  ; */
+    border-radius: 4px;
+    border-style: none;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    background-size: contain;
+}
+.section2-container{
+border: medium solid;
+
+display: flex;
+align-items: center;
+border-collapse: collapse;
+padding: 30px;
+
+
+}
+
+.section2-container2{
+    border:  medium  solid rgba(246, 222, 246, 0.792);
+    background-color: rgb(241, 223, 254);
+    margin: auto;
+    /* flex-wrap: wrap; */
+    min-width: 50vh;
+    height: 100vh;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;  
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 30em;
+    display: block;
+    box-sizing: inherit;
+    unicode-bidi: isolate;
+    -webkit-font-smoothing: antialiased;
+    padding: auto;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    
+}
+
+.section2-container h2{
+    font-weight: unset;
+    line-height: 0.98;
+    box-sizing: inherit;
+}
+
+.section2-container h3{
+    font-weight: 600;
+    letter-spacing: -0.025rem;
+    max-width: 40ch;
+    box-sizing: inherit;
+}
+.section2-container p{
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 30em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.section2-link{
+    color: #e03131;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    padding-bottom: 0.125rem;
+    
+}
+.section-2 .section2-link :hover{
+    transition: 200ms ease;
+    border: inherit;
+}
+            /* SECTION-3 */
+
+        .section-3{
+            border: medium solid green;
+            padding: 30px;
+            margin: auto;
+            margin-bottom: 20px;
+            display: block;
+
+        }
+.section-3 .section3-headline{
+    margin-bottom: 20px;
+    display: block;
+    padding: auto;
+}
+.section-3 .section3-headline h2{
+    font-weight: unset;
+    font-size: 15px;
+} 
+.section-3 .section3-headline h3{
+    font-size: 40px;
+    font-weight: 600;
+    display: block;
+} 
