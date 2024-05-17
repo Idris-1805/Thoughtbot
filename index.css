@@ -305,14 +305,13 @@ padding: 30px;
 }
             /* SECTION-3 */
 
-        .section-3{
-            border: medium solid green;
-            padding: 30px;
-            margin: auto;
-            margin-bottom: 20px;
-            display: block;
-
-        }
+.section-3{
+    border: medium solid green;
+    padding: 40px;
+    margin: auto;
+     margin-bottom: 20px;
+     display: block;
+   }
 .section-3 .section3-headline{
     margin-bottom: 20px;
     display: block;
@@ -327,3 +326,94 @@ padding: 30px;
     font-weight: 600;
     display: block;
 } 
+.section3-row{
+ display: grid; 
+ grid-gap: 3rem 3rem; 
+ grid-template-columns: 1fr 1fr;
+}
+.section-3 .section3-row .section3-col1 img{
+    height: auto;
+    width: 100%;
+ }.section-3 .section3-row .section3-col2 img{
+    height: auto;
+    width: 100%;
+ }
+
+
+    /* BODY OF section-4 */
+.section4-container{
+    border: medium solid purple;
+    background-color: rgb(252, 149, 252);
+    width: 100%;
+    margin-bottom: 10px;
+    margin: auto;
+    padding: 40px;
+    font-size: 20px;
+    display: block;
+    position: relative;
+
+} 
+section .section4-container p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+     line-height: 1.25;
+}
+.section4-container2 .img{
+    display: flex;
+    align-items: center;
+    gap:  10px;
+    /* justify-content: center; */
+    
+}
+
+.section4-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    
+}
+
+section .section4-container a{
+  color: #e03131; 
+  font-size: 20px; 
+}
+
+
+        /* BODY OF SECTION 5 */
+   
+.section-5{
+    border:  medium solid blue;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+.section-3 .section3-headline{
+    margin-bottom: 20px;
+    display: block;
+    padding: auto;
+}
+.section-3 .section3-headline h2{
+    font-weight: unset;
+    font-size: 15px;
+} 
+.section-3 .section3-headline h3{
+    font-size: 40px;
+    font-weight: 600;
+    display: block;
+} 
+.section3-row{
+ display: grid; 
+ grid-gap: 3rem 3rem; 
+ grid-template-columns: 1fr 1fr;
+}
+.section-3 .section3-row .section3-col1 img{
+    height: auto;
+    width: 100%;
+ }.section-3 .section3-row .section3-col2 img{
+    height: auto;
+    width: 100%;
+ }
