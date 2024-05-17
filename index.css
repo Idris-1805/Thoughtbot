@@ -130,7 +130,7 @@ header nav .navright button a{
 .section1-h1{
     /* border: medium solid blue; */
     width: 1000px;
-    min: height 100px;;
+    min-height:  100px;;
     overflow: visible;
     pointer-events: none;
     position: relative;
@@ -167,7 +167,7 @@ header nav .navright button a{
     border: none;
     background-color: red;
     padding: 1rem 1.75rem;
-    text-replace:background-color 200ms ease;
+    /* text-replace:background-color 200ms ease; */
     font-weight: 500;
     height: auto;
     text-decoration: none;
