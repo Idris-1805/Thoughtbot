@@ -13,7 +13,7 @@ header{
     position: sticky;
     padding: 0px;
     top: 0;
-    z-index: 3;
+    z-index: 5;
 }
 
     
@@ -26,6 +26,7 @@ nav{
     width: 90%;
     margin: auto;
     padding: 10px;
+    z-index: 5;
 
 }
 .navleft{
